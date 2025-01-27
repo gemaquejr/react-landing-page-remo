@@ -1,10 +1,14 @@
-import React from 'react';
+import React from "react";
+import Header from "./components/Header/Header";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello World</h1>
-    </div>
+    <>
+      <Header />
+      <div className="App" style={{ paddingTop: "4.375rem" }}>
+        <h1>Hello World</h1>
+      </div>
+    </>
   );
 }
 
